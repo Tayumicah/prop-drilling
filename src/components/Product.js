@@ -12,7 +12,10 @@ function Product(props) {
   return (
     <span>
       {props.item.name} - {props.item.price} -
-      <Quantity quantity={props.item.quantity} onIncrement={handleIncrement} onDecrement={handleDecrement}/>
+      <Quantity quantity={props.item.quantity}
+        onIncrement={handleIncrement}
+        onDecrement={handleDecrement}
+      />
     </span>
   );
 }

@@ -61,9 +61,6 @@ class App extends Component {
     });
   };
 
-  // Your Code Here!
-  // Do the same as handleIncrementQuantity, but decrement it instead
-  // Remember that you should not decrement below zero!
 
   handleCheckout = () => {
     alert(
@@ -99,9 +96,7 @@ class App extends Component {
                   this.setState({
                     isOnMailingList: event.target.checked,
                   })
-                // Your code here!
-                // Use setState to update the flag in state for the checkbox
-                // Hint: use event.target.checked
+                
               }
             />
             Sign me up for the mailing list!
